@@ -2,6 +2,7 @@ package leetcode
 
 import (
     "fmt"
+    "math"
     "testing"
 )
 
@@ -26,5 +27,5 @@ func findDuplicates(nums []int) []int {
 
 
 func TestName(t *testing.T) {
-    fmt.Println(100 ^ 100)
+    fmt.Println(math.MaxInt64)
 }
